@@ -179,7 +179,7 @@ print "\n\n>>>>Finished running all skewer commands\n\n";
 
 print "\n\n >>>>Sorting trimmed fastqs using BBmap\n\n";
  
-system("/data1/s2321041/Neurergus/Scripts/bbmap_repair.sh");
+system("/data1/s2321041/Neurergus/Scripts/1_bbmap_repair.sh");
 
 print "\n\n >>>>Finished sorting trimmed fastqs using BBmap\n\n";
 
