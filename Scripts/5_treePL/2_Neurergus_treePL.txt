@@ -1,0 +1,42 @@
+[Input files containing the ML trees]
+#treefile = /data1/s2321041/Neurergus/treePL/NeurOut_rooted.tre
+treefile = /data1/s2321041/Neurergus/treePL/RAxML_bootstrap.NeurBoot.tre
+
+[General commands]
+numsites = 171092
+nthreads = 4
+thorough
+log_pen
+
+[Calibrations]
+mrca = m1 1995_Triturus_marmoratus 3247_Triturus_macedonicus
+mrca = m2 312_Triturus_carnifex 3247_Triturus_macedonicus
+min = m1 24
+min = m2 5.33
+max = m1 24
+max = m2 5.33
+
+[Priming command]
+#prime
+
+[Best optimisation parameters]
+opt = 2
+moredetail
+optad = 3
+moredetailad
+optcvad = 5
+
+[Cross-validation analysis]
+#randomcv
+#cviter = 5
+#cvsimaniter = 1000000000
+#cvstart = 0.00001
+#cvstop = 0.0000000000001
+#cvmultstep = 0.1
+#cvoutfile = /data1/s2321041/Neurergus/treePL/randomcv4_Neur.txt
+
+[Best smoothing value]
+smooth = 0.0000000001
+
+[Output file of dating step]
+outfile = /data1/s2321041/Neurergus/treePL/Neurergus_treePL_dated.tre
